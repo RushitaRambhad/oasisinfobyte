@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rushita Rambhad</title>
+  <link rel="stylesheet" href="C:\Users\Rushita\OneDrive\Documents\Web developement\CSS-My Site\css\styles.css">
+  <link rel="stylesheet" href="C:\Users\Rushita\OneDrive\Documents\Web developement\CSS-My Site\favicon (1).ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+  <div class="top-container">
+    <img class="first-cloud" src="C:\Users\Rushita\OneDrive\Documents\Web developement\CSS-My Site\images\cloud.png" alt="cloud-img">
+  <h1><em>I'am Rushita.</h1></em>
+  <h2>a <span>pro</span>grammer.</h2>
+  <img class="second-cloud" src="C:\Users\Rushita\OneDrive\Documents\Web developement\CSS-My Site\images\cloud.png" alt="cloud-img">
+  <img src="C:\Users\Rushita\OneDrive\Documents\Web developement\CSS-My Site\images\mountain.png" alt="mountain-img">
+  </div>
+  
+  <div class="middle-container">
+    <div class="profile">
+      <img class="pro" src="C:\Users\Rushita\Downloads\WhatsApp Image 2022-11-28 at 12.21.57-modified (1).png" height="200" alt="">
+      <h2 class="Hello">Hello.</h2>
+      <p class="intro"><em>I am a student pursuing engineering at<strong><br><a href="https://jspmbsiotr.edu.in/">JSPM'S BHIVARABAI SAWANT INSTITUTE OF TECHNOLOGY AND RESEARCH</a>  </strong> <br>in E&TC branch.</em>
+       I am an enthusiatic person like to take up challenges and currently i am learning a web development.</p>
+    </div>
+    <br>
+    <hr > 
+    <br>
+    <div class="skills">
+      <h2 class="my-skill">My Skills</h2>
+      <div class="skill-row">
+        <img class="Gymnastics" src="C:\Users\Rushita\Downloads\flat-design-gymnast-silhouette-illustration_23-2149483315-removebg-preview (1).png"  alt="">
+        <h3>Gymnastics and Yoga</h3>
+        <p>I always used to like do yoga and Gymnastics. In school ,I particitated in many yoga competition and won the prizes. </p>
+      </div>
+      <div class="skill-row">
+        <img class="Doddle" src="C:\Users\Rushita\Downloads\fotor_2023-3-20_1_3_10.png"  alt="">
+        <h3>Drawing & Doddle</h3>
+        <p >In free time, I start doddling and Drawing.It makes me feel good by Drawing. </p>
+      </div>
+    </div>
+  
+  
+   <br>
+   <hr> 
+  
+ 
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>So, Are you interested in yoga and meditation?</h3>
+      <P class="contact-message">Here, we conduct sessions on yoga and  tell the benefits of yoga. If you are interested contact me the seats are limited. Hurry up!!!! . </p>
+     <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+    
+
+  </div>
+    
+  
+
+   <div class="bottom-container">
+    <div class="bottom">
+     <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+     <a class="footer-link" href="https://twitter.com/">Twitter</a>
+     <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+     <p class="copyright">© Rushita Rambhad.</p>
+   </div>
+  </div>
+  
+  
+</body>
+
+
+#css code;
+
+body{
+    color: #40515E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    
+    color:#66BFBF;
+    font-size: 90px;
+    margin: 90px auto 0 auto ;
+    font-family: 'Sacramento', cursive;
+
+}
+
+h2{
+    
+    font-weight: normal;
+    color:#66BFBF;
+    font-size: 2.5rem;
+    margin:auto 0 auto 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+
+h3{
+
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+hr{
+    border-style: none;
+    border-top-style:dotted;
+    border-color: grey;
+    border-width: 4px;
+    width: 4%;
+    margin: 80px auto;
+}
+
+.top-container{
+    background-color: #E4F9F5 ;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+
+.first-cloud{
+    position: absolute;
+    right: 50px;
+    left: 900px;
+    top: 40px;
+    bottom: 10px;
+}
+
+.second-cloud{
+    position: absolute;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px ;
+    text-align: left;
+    
+}
+
+.Gymnastics{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.Doddle{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me{
+    margin: auto auto 100px;
+}
+
+.btn{
+    line-height: 2;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .middel-container{
+    margin: 100px 0;
+  }
+
+  .bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+  }
+
+  .Hello{
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .intro{
+    width: 30%;
+    margin: auto;
+  }
+
+  p{
+    line-height: 2;
+  }
+
+  .contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+
+  a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration:none;
+  }
+
+  a:hover{
+    color: #EAF6F6;
+  }
+
+  .copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
+</html>
+
+
